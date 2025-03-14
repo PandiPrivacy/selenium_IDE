@@ -1,0 +1,2321 @@
+{
+  "id": "b38dc4c1-4552-4454-b234-f80690260a8e",
+  "version": "2.0",
+  "name": "Настройка таблицы BI",
+  "url": "https://172.17.127.226/",
+  "tests": [
+    {
+      "id": "aa8d9bd7-7a8d-49b3-a3b8-62c5648f3a97",
+      "name": "Логин под смирновым - разлогин",
+      "commands": [
+        {
+          "id": "92098335-512b-4132-82ea-1a3fe4a8da5a",
+          "comment": "",
+          "command": "open",
+          "target": "https://172.17.127.226/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a31a6c77-f7c3-4af8-b825-eaf8f29bb6c2",
+          "comment": "",
+          "command": "click",
+          "target": "css=input:nth-child(1)",
+          "targets": [
+            [
+              "css=input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div[2]/div[2]/form/div/div[2]/div/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f598aead-6844-44df-bf56-29065ed85c23",
+          "comment": "",
+          "command": "type",
+          "target": "css=input:nth-child(1)",
+          "targets": [
+            [
+              "css=input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='smirnov1']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div[2]/div[2]/form/div/div[2]/div/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "smirnov1"
+        },
+        {
+          "id": "7d550d13-69ed-474c-aeac-0876149afd33",
+          "comment": "",
+          "command": "type",
+          "target": "css=input:nth-child(2)",
+          "targets": [
+            [
+              "css=input:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='Password123$$$123']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/form/div/div[2]/div[2]/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Password123$$$123"
+        },
+        {
+          "id": "d983e7dd-f22f-430c-b800-626941fb2331",
+          "comment": "",
+          "command": "click",
+          "target": "css=.Button-authorization > span",
+          "targets": [
+            [
+              "css=.Button-authorization > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/form/div/div[2]/button/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/button/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Войти')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "96107865-c4b6-45b7-9f51-77608fd6b1f4",
+          "comment": "",
+          "command": "waitForElementPresent",
+          "target": "css=.\\__TEST__STRUCTURE_TITLE",
+          "targets": [
+            [
+              "css=.\\__TEST__STRUCTURE_TITLE",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div/div/h3",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h3[contains(.,'Структура')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "30000"
+        },
+        {
+          "id": "25882a8d-24ad-4110-84d0-51d3b99fe1e0",
+          "comment": "",
+          "command": "click",
+          "target": "css=.account",
+          "targets": [
+            [
+              "css=.account",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d4709421-b2a0-4484-817a-3863d2138c84",
+          "comment": "",
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "targets": [
+            [
+              "css=.mt-16 > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div/div[3]/button/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/button/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выйти')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "45c55d4d-0f8a-4423-a049-36dc68a4145b",
+      "name": "АДМИН Логин под смирновым",
+      "commands": [
+        {
+          "id": "4f9759ff-406c-47c5-bea4-43b1e3399d08",
+          "comment": "",
+          "command": "open",
+          "target": "https://172.17.127.226/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2462ad62-cc96-457f-806f-d4025dd8c934",
+          "comment": "",
+          "command": "click",
+          "target": "css=input:nth-child(1)",
+          "targets": [
+            [
+              "css=input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div[2]/div[2]/form/div/div[2]/div/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ad67b393-284a-4c39-a172-38cd45cfd84f",
+          "comment": "",
+          "command": "type",
+          "target": "css=input:nth-child(1)",
+          "targets": [
+            [
+              "css=input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='smirnov1']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div[2]/div[2]/form/div/div[2]/div/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "smirnov1"
+        },
+        {
+          "id": "8d369b2d-92df-4630-bdb2-0cf79c443536",
+          "comment": "",
+          "command": "type",
+          "target": "css=input:nth-child(2)",
+          "targets": [
+            [
+              "css=input:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='Password123$$$123']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/form/div/div[2]/div[2]/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Password123$$$123"
+        },
+        {
+          "id": "9b7aaf2a-c43c-47f1-b4ce-a623a4fa8d79",
+          "comment": "",
+          "command": "click",
+          "target": "css=.Button-authorization > span",
+          "targets": [
+            [
+              "css=.Button-authorization > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/form/div/div[2]/button/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/button/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Войти')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e956879a-9f1c-4c1c-bd67-7aa75fa7182c",
+          "comment": "",
+          "command": "waitForElementPresent",
+          "target": "css=.\\__TEST__STRUCTURE_TITLE",
+          "targets": [
+            [
+              "css=.\\__TEST__STRUCTURE_TITLE",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div/div/h3",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h3[contains(.,'Структура')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "30000"
+        },
+        {
+          "id": "c1afdf87-ee7e-4475-a356-4e368dc8836b",
+          "comment": "",
+          "command": "waitForElementPresent",
+          "target": "css=.Control:nth-child(1) > .Control:nth-child(3) > .Link-content > .Control",
+          "targets": [
+            [
+              "css=.Control:nth-child(1) > .Control:nth-child(3) > .Link-content > .Control",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div/div/div[3]/span/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/span/div",
+              "xpath:position"
+            ]
+          ],
+          "value": "30000"
+        },
+        {
+          "id": "f154da0b-b925-47ba-b1b3-8b9b03872fbf",
+          "comment": "",
+          "command": "click",
+          "target": "css=.account > path",
+          "targets": [
+            [
+              "css=.account > path",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3dc64837-d9a3-4c36-b5de-0d3040cc9ada",
+          "comment": "",
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "targets": [
+            [
+              "css=.mt-16 > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div/div[3]/button/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/button/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выйти')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "f77954ba-ad1a-4ef1-b659-b18b6759ded7",
+      "name": "ПОЛЬЗОВАТЕЛЬ admin",
+      "commands": [
+        {
+          "id": "4efd71d2-5fff-4f04-8939-dc3db01eac95",
+          "comment": "",
+          "command": "open",
+          "target": "https://172.17.127.226/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "881a9651-0ec3-409e-8af2-86ecd8f8665d",
+          "comment": "",
+          "command": "click",
+          "target": "css=input:nth-child(1)",
+          "targets": [
+            [
+              "css=input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div[2]/div[2]/form/div/div[2]/div/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3790beef-ad3a-4af1-bdd4-abcbaeb19654",
+          "comment": "",
+          "command": "type",
+          "target": "css=input:nth-child(1)",
+          "targets": [
+            [
+              "css=input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='smirnov1']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div[2]/div[2]/form/div/div[2]/div/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "admin"
+        },
+        {
+          "id": "3dd010bd-555c-4757-84d5-914666e2874f",
+          "comment": "",
+          "command": "type",
+          "target": "css=input:nth-child(2)",
+          "targets": [
+            [
+              "css=input:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@value='Password123$$$123']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/form/div/div[2]/div[2]/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Admin123$56\\n"
+        },
+        {
+          "id": "23f63a1e-e9bd-4d09-80f5-be136201778f",
+          "comment": "",
+          "command": "click",
+          "target": "css=.Button-authorization > span",
+          "targets": [
+            [
+              "css=.Button-authorization > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/form/div/div[2]/button/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/button/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Войти')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "56c37e8b-3ab4-4bc8-b76e-208b37704fb7",
+          "comment": "",
+          "command": "waitForElementPresent",
+          "target": "css=.\\__TEST__STRUCTURE_TITLE",
+          "targets": [
+            [
+              "css=.\\__TEST__STRUCTURE_TITLE",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div/div/h3",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h3[contains(.,'Структура')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "30000"
+        },
+        {
+          "id": "6f1139d4-df2f-4c67-b17b-6c3c875a6117",
+          "comment": "",
+          "command": "waitForElementNotPresent",
+          "target": "css=.accountMultiple",
+          "targets": [
+            [
+              "css=.accountMultiple",
+              "css:finder"
+            ]
+          ],
+          "value": "300"
+        },
+        {
+          "id": "e2f6ccfb-1694-47a2-a12f-1a860a3771cc",
+          "comment": "",
+          "command": "click",
+          "target": "css=.account > path",
+          "targets": [
+            [
+              "css=.account > path",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6a8a7740-899c-471c-bd2a-c314f80d25c9",
+          "comment": "",
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "targets": [
+            [
+              "css=.mt-16 > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div/div[3]/button/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/button/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выйти')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "77611bf4-9132-4f01-bb24-d3e4278811df",
+      "name": "1/5 Настройка столбцов таблицы 01 - 15",
+      "commands": [
+        {
+          "command": "run",
+          "target": "Login",
+          "value": "",
+          "id": "88fc95f8-23ee-4915-aa3c-c6b76a296f43",
+          "comment": "Ран кейса на залогин"
+        },
+        {
+          "command": "run",
+          "target": "BI_source_1",
+          "value": "",
+          "id": "3c229ce9-598e-43d9-9854-d0c1ce263c7b",
+          "comment": "Ран кейса на переход в Первый источник"
+        },
+        {
+          "id": "0802af30-8804-4c56-ad51-7be57937633e",
+          "comment": "Переход в настройки таблицы",
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "31426a45-4629-4cee-9ecf-bf42d5de988f",
+          "comment": "Проверка: Открывается меню настройки столбцов таблицы",
+          "command": "assertText",
+          "target": "xpath=//span[text()='Настройка столбцов таблицы']",
+          "targets": [],
+          "value": "Настройка столбцов таблицы"
+        },
+        {
+          "id": "2891f2f3-0767-43dd-ade1-d67a64ed7923",
+          "comment": "Проверка: Все атрибуты находятся в колонке \"Выбранные\"",
+          "command": "assertElementNotPresent",
+          "target": "css=.TreeView-name:nth-child(1)",
+          "targets": [],
+          "value": "",
+          "fallbackTargets": [
+            [
+              "css=.TreeView-name:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'Дата инд1.3')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "id": "08956a2d-6b97-4011-acd9-b3d4bf3b48d8",
+          "comment": "Проверка: Чекбокс \"Сгруппировать по префиксу\" - активен",
+          "command": "assertChecked",
+          "target": "xpath=//input[@id=\"cb_2\"]",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(5)",
+          "value": "",
+          "id": "e23c862d-926a-48ab-a449-b5e7ebc92160",
+          "comment": "Выделить какой-либо атрибут, не входящий в группу"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(2) > svg",
+          "value": "",
+          "id": "d8c6c3ac-77a0-473a-ab3a-e6a3a454c5fd",
+          "comment": "Переместить атрибут в колонку \"Доступные\", кликнув по контролу перемещения между таблицами"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-name:nth-child(1)",
+          "value": "",
+          "id": "ece8571d-ab37-455e-b804-07a0afc2d915",
+          "comment": "Проверка: Столбец в Доступных"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(4)",
+          "value": "",
+          "id": "f6359338-554c-449f-9d0c-346a3c08159b",
+          "comment": "Выделить атрибут из \"Выбранных\", который предшествовал перемещенному атрибуту"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item--active",
+          "value": "",
+          "id": "d9d55441-6223-44e2-99b7-7dfc32df1cd8",
+          "comment": "Проверка: Столбец выделен"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-tree:nth-child(1) .TreeView-item",
+          "value": "",
+          "id": "1085da96-40d7-44a0-8def-5b1bb0aa3c48",
+          "comment": "Выделить перемещенный атрибут из \"Доступных\" "
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(1)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ece00f12-0ea9-4c32-8bff-2b5c4cf87ca5",
+          "targets": [
+            [
+              "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button'])[4]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[2]/button)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Кликнуть по контролу перемещения между таблицами в сторону \"Выбранных\""
+        },
+        {
+          "command": "//verifyElementPresent",
+          "target": "xpath=//button[@class=\"ColumnsSettings-button ColumnsSettings-button--default ColumnsSettings-button--disabled\"] ",
+          "value": "",
+          "id": "ea70bd7a-e9d0-4eec-bd15-868903cb169c",
+          "fallbackTargets": [
+            [
+              "css=.ColumnsSettings-button--default",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='Сохранить'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[3]/button)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Known bug. Verify: Кнопка \"Сохранить\" - деактивирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "96af26cf-68ec-4128-8f2f-6c1f8e9952fe",
+          "targets": [
+            [
+              "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button'])[5]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[2]/button[2])[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Снова переместить атрибут в \"Доступные\""
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "59c97184-7238-49ae-946b-5edb9e34d033",
+          "targets": [
+            [
+              "css=.ColumnsSettings-button--default",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='Сохранить'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[3]/button)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Сохранить изменения"
+        },
+        {
+          "command": "assertNotText",
+          "target": "css=.TopRightGrid_ScrollWrapper .Grid-Item:nth-child(2) > .Grid-Item-Content > span",
+          "value": "Дата инд2.3",
+          "id": "96e5cd38-8fac-4390-8743-5fb93cbb4db8",
+          "fallbackTargets": [
+            [
+              "css=.TopRightGrid_ScrollWrapper .Grid-Item:nth-child(2) > .Grid-Item-Content > span",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'Дата инд1.3')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Перемещенный атрибут не отображается в БИ"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "9c20f3e1-082f-4540-8f3a-f6081a3dbda4",
+          "targets": [
+            [
+              "css=[data-idx=\"0\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=.ColumnsSettings-tree:nth-child(1) .TreeView-item",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "fallbackTargets": [
+            [
+              "css=#settings-button .Gant-chip-icon",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Вернуться в настройки таблицы"
+        },
+        {
+          "command": "click",
+          "target": "xpath=//span[text()='Дата инд2.3']",
+          "value": "",
+          "id": "2a2dc150-79c0-4054-acdc-4a6108483f75",
+          "comment": "Взять в фокус атрибут Дата инд2.3 из Доступных "
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(1) > svg",
+          "value": "",
+          "id": "2b476f1a-85aa-4abe-ab3d-79eeca3e0aad",
+          "comment": "Вернуть атрибут в список \"Выбранных\" на прежнюю позици"
+        },
+        {
+          "command": "click",
+          "target": "xpath=(//button[@type='button'])[12]",
+          "value": "",
+          "id": "eeaffd1c-70b1-4d20-99e6-0d7d29f5746d",
+          "comment": "Сохранить настройку отображения"
+        },
+        {
+          "command": "verifyElementPresent",
+          "target": "xpath=//span[text()='Дата инд2.3']",
+          "value": "Дата инд2.3",
+          "id": "cef778c2-c7cb-40fc-b9c6-e55a68290723",
+          "comment": "Проверка: Столбец отображается в БИ на прежнем месте"
+        },
+        {
+          "command": "click",
+          "target": "css=.account",
+          "value": "",
+          "id": "28779161-ff93-4ea2-9d62-f97a3e2bb539",
+          "comment": "Клик по кнопке Личный кабинет"
+        },
+        {
+          "command": "click",
+          "target": "css=.\\__TEST__PROPMT_OK > span",
+          "value": "",
+          "id": "874c6102-cbc6-46f7-ad1e-4168e4539a2f",
+          "comment": "Ок на модалку о несохраненных изменениях "
+        },
+        {
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "value": "",
+          "id": "009cef8b-aa4c-4b73-b89b-775d5ff35dc3",
+          "comment": "Выход из сессии"
+        },
+        {
+          "command": "runScript",
+          "target": "window.location.reload(true)",
+          "value": "",
+          "id": "c2ebb673-766e-4f96-ac52-df873c65c313",
+          "comment": "очистка кеша "
+        }
+      ]
+    },
+    {
+      "id": "6a9145bf-f0fd-4d19-a611-fc843ad20f35",
+      "name": "2/5 Настройка столбцов таблицы 16 - 26",
+      "commands": [
+        {
+          "command": "run",
+          "target": "Login",
+          "value": "",
+          "id": "566560b6-1cda-40ea-9740-65c0d2df507a"
+        },
+        {
+          "command": "run",
+          "target": "BI_source_2",
+          "value": "",
+          "id": "eb110573-8865-47f7-b098-bbb726eb2e96",
+          "comment": "Переход в БИ Второго источника"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "8db21c7c-a21b-44d8-b886-89a5bb824b28",
+          "comment": "Переход в настройки таблицы"
+        },
+        {
+          "command": "assertText",
+          "target": "xpath=//span[text()='Настройка столбцов таблицы']",
+          "value": "Настройка столбцов таблицы",
+          "id": "18277154-59c3-4f2b-85b2-9ba32a1b2c32",
+          "comment": "Проверка: Открывается меню настройки столбцов таблицы"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "css=.TreeView-name:nth-child(1)",
+          "value": "",
+          "id": "1dfc5b20-8168-4b55-9f0d-b39d99db003d",
+          "comment": "Проверка: Все атрибуты находятся в колонке \"Выбранные\""
+        },
+        {
+          "command": "assertChecked",
+          "target": "xpath=//input[@id=\"cb_2\"]",
+          "value": "",
+          "id": "bbb58639-19e4-4e24-b0da-5a66af735a0f",
+          "comment": "Проверка: Чекбокс \"Сгруппировать по префиксу\" - активен"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(3) > span",
+          "value": "",
+          "id": "73242ca2-32d4-40ef-8556-ff19e93bf7ae",
+          "comment": "Клик по чек-боксу Сгруппировать по типу данных "
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(1) > .TreeView-name",
+          "value": "",
+          "id": "2f5d943c-b936-4f3a-a70e-6c04dbfd1091",
+          "comment": "Проверки: В списке \"Выбранных\" помимо сгруппированных по префиксу образовались дополнительные группы"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(2) > .TreeView-name",
+          "value": "",
+          "id": "68188ba8-4939-42be-a3dc-3c3afcc5d572"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(3) > .TreeView-name",
+          "value": "",
+          "id": "dfccc713-610c-4a3b-a941-8bdfb5ac2557"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(4) > .TreeView-name",
+          "value": "",
+          "id": "cf0348e5-bf1a-4b5b-bac9-b9d2e8a4281c"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(5) > .TreeView-name",
+          "value": "",
+          "id": "96d393b5-3cdd-4657-914d-7ae67d01b283"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(6) > .TreeView-name",
+          "value": "",
+          "id": "f731a7f3-6fe0-4af4-b02e-e0e0570a023c"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(7) > .TreeView-name",
+          "value": "",
+          "id": "551235e9-1207-479a-85e8-1c5655ab22cf"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(1) > .TreeView-button > svg",
+          "value": "",
+          "id": "a867f3a0-c3ba-486c-bad1-4a980491c1aa",
+          "comment": "Раскрытие групп"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(4) > .TreeView-button > svg",
+          "value": "",
+          "id": "5cbe0d6f-420e-436a-9021-ea48d3f43e93"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(7) > .TreeView-button > svg",
+          "value": "",
+          "id": "18f43c0f-082b-458d-a3d3-f97a9b87b84a"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(11) > .TreeView-button > svg",
+          "value": "",
+          "id": "fbce0564-2587-4084-ab19-36f65e9f1abd"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(14) > .TreeView-button > svg",
+          "value": "",
+          "id": "3e6fb2b5-a62f-42ac-b80b-64b2cf52a156"
+        },
+        {
+          "command": "runScript",
+          "target": "var container = document.evaluate('(//*[@class=\"ColumnsSettings-tree--scrollDiv\"])[2]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; container.scrollTop = container.scrollHeight",
+          "value": "${KEY_DOWN}",
+          "id": "a4cc3ece-f1b1-4bd4-8200-9e1f79ed52a2",
+          "comment": "Скрипт на скролл контейнера "
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(22) > .TreeView-button > svg",
+          "value": "",
+          "id": "72757db5-015e-4da3-af2f-3b4339cc0011"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(28) > .TreeView-button > svg",
+          "value": "",
+          "id": "22bd60bb-5ad1-4b77-b30b-50b3a8b07aa6"
+        },
+        {
+          "command": "storeElementCount",
+          "target": "//div[@class='TreeView-item  '] ",
+          "value": "itemCount",
+          "id": "cca80530-1658-4726-b24f-3d0b81c3379e",
+          "comment": "Расчет элементов"
+        },
+        {
+          "command": "assert",
+          "target": "itemCount",
+          "value": "31",
+          "id": "6df0a144-10b9-4260-aeb1-7c1014232fcc",
+          "comment": "Проверка количества столбцов "
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(14) > .TreeView-name",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3a1cb492-79f9-47b8-ba36-7251d9efc414",
+          "targets": [
+            [
+              "css=.TreeView-item:nth-child(14) > .TreeView-name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[3]/div[2]/div[2]/div/div[14]/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'Числовые данные')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Установить фокус на группе"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(14) > .TreeView-button > svg",
+          "value": "",
+          "id": "030a6544-cd20-4cff-84d3-8d76e771ec45",
+          "comment": "Скрыть группу"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(14) > .TreeView-button > svg",
+          "value": "",
+          "id": "13c59339-f491-4aed-98ce-5e67d00e7613",
+          "comment": "Раскрыть группу "
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(18)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "eee1bb96-4789-49ca-9d68-be2d27bc7686",
+          "targets": [
+            [
+              "css=.TreeView-item:nth-child(18)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[3]/div[2]/div[2]/div/div[18])[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Кликнуть по конкретному атрибуту группы"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "//div[@class='TreeView-item TreeView-item--child ']",
+          "value": "",
+          "id": "592a4bdc-558c-4a40-a035-12beef7b5e6d",
+          "comment": "Проверка: фокус установлен"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item--child",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "29f249d6-036e-4cce-b260-e62fc7fa20f2",
+          "targets": [
+            [
+              "css=.TreeView-item--child",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[3]/div[2]/div[2]/div/div[18])[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Снять фокус с атрибута"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "//div[@class='TreeView-item TreeView-item--child ']",
+          "value": "",
+          "id": "b0888554-1e2c-4838-aa13-05db08ddee6c",
+          "comment": "Проверка: фокус снят"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(14) > .TreeView-name",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e8d55db2-a23f-41fb-8407-d5885e7e0fa0",
+          "targets": [
+            [
+              "css=.TreeView-item:nth-child(14) > .TreeView-name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[3]/div[2]/div[2]/div/div[14]/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'Числовые данные')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Установить фокус на группе"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "//div[@class='TreeView-item TreeView-item--active ']",
+          "value": "",
+          "id": "dd11e48d-a27c-4cef-a6c7-04ebd4a292cf",
+          "comment": "Проверка: фокус установлен"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item--active > .TreeView-name",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a2112f85-d783-45b4-a296-5699add72ac7",
+          "targets": [
+            [
+              "css=.TreeView-item--active > .TreeView-name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[3]/div[2]/div[2]/div/div[14]/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'Числовые данные')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Снять фокус с группы"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "//div[@class='TreeView-item TreeView-item--active ']",
+          "value": "",
+          "id": "28be1c01-da29-4dba-b7b9-41a5a24eef64",
+          "comment": "Проверка: фокус снят "
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-header > button",
+          "value": "",
+          "id": "7337ee8f-2dbf-47f4-8a26-179b663980c2",
+          "comment": "Разлогин \\/"
+        },
+        {
+          "command": "click",
+          "target": "css=.account",
+          "value": "",
+          "id": "1ced6d6e-a2e2-4288-b36f-e86fbe9ab515",
+          "comment": ""
+        },
+        {
+          "command": "click",
+          "target": "css=.\\__TEST__PROPMT_OK > span",
+          "value": "",
+          "id": "dadcde16-4953-4285-867f-8950a1f9bc39"
+        },
+        {
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "value": "",
+          "id": "2bf4f8f4-027e-4c91-8422-bf172d63b82b"
+        },
+        {
+          "command": "runScript",
+          "target": "window.location.reload(true)",
+          "value": "",
+          "id": "e1277a84-b873-4003-93ff-e3bca955eaab"
+        }
+      ]
+    },
+    {
+      "id": "c5da5a7d-fc54-45cf-b18f-3dad24b2d56a",
+      "name": "3/5 Настройка столбцов таблицы 31-41",
+      "commands": [
+        {
+          "id": "da7716af-8e89-499f-8c61-f577d0e6629b",
+          "command": "run",
+          "target": "Login",
+          "value": ""
+        },
+        {
+          "command": "run",
+          "target": "BI_source_1",
+          "value": "",
+          "id": "4960f442-92f9-419c-b3a8-8d4aea75d020",
+          "comment": "Переход в БИ Первого источника "
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "79ccced4-eaf9-4516-b85a-e95595c15064",
+          "comment": "Переход в настройки таблицы"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(3) > span",
+          "value": "",
+          "id": "d9b4a2f5-6cf6-4222-9460-6b790d1addf0",
+          "comment": "Клик по чек-боксу Сгруппировать по типу данных "
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(1) > .TreeView-name",
+          "value": "",
+          "id": "3266259d-afff-4a77-b7a6-c966bd8ec80a",
+          "comment": "Кликаем по группе атрибутов"
+        },
+        {
+          "command": "storeElementCount",
+          "target": "//div[@class='TreeView-item TreeView-item--active ']",
+          "value": "Highlighted attributes",
+          "id": "b9c3e474-b363-477e-bd3b-77c6a91fa9f5",
+          "comment": "Расчет количества выделенных групп атрибутов"
+        },
+        {
+          "command": "//verify",
+          "target": "Highlighted attributes",
+          "value": "1",
+          "id": "ab750b2f-fafd-4c81-99ff-f5b5c4b6a6f2",
+          "comment": "Known bug: Проверка: выделена 1 группа атрибутов"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e34dbfcd-d197-4d69-bbc4-d0b667dd94f9",
+          "targets": [
+            [
+              "css=.ColumnsSettings-addRemoveArrows",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div[2])[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Клик по стрелке влево"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-tree:nth-child(3) .TreeView-item:nth-child(1)",
+          "value": "",
+          "id": "c4a06226-fc6a-414c-b2b1-4aca73e58e61",
+          "comment": "Клик по группе по типу данных"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows",
+          "value": "",
+          "id": "caab1f09-9364-49e3-a40b-04799686289c",
+          "comment": "Клик по стрелке влево"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "//div[@class='TreeView-item TreeView-item--active ']",
+          "value": "",
+          "id": "2652c176-c7d5-4538-9011-ec7d4dfb3feb",
+          "fallbackTargets": [
+            [
+              "css=[data-idx=\"0\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=.ColumnsSettings-tree:nth-child(1) .TreeView-item",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='settings-button']/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Проверка: Фокус в колонке \"Выбранные\" - отсутствует"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=//button[@class=\"ColumnsSettings-button ColumnsSettings-button--default \"] ",
+          "value": "",
+          "id": "ca72a2f4-dd46-4c80-95da-53b871fb5b33",
+          "comment": "Проверка: Кнопка \"Сохранить\" - активировалась"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(1) > .TreeView-button:nth-child(1) > svg",
+          "value": "",
+          "id": "11424fdd-2ce7-4a3a-8c3f-ee9c4b96386f",
+          "comment": "Раскрыть список \"Числ данные\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-tree:nth-child(1) .TreeView-item:nth-child(2)",
+          "value": "",
+          "id": "87578e34-c43f-43d0-a96b-35477a2107e4",
+          "comment": "Проверка: Раскрыватеся список групп"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(3) > .TreeView-button:nth-child(1) > svg",
+          "value": "",
+          "id": "47de3071-e1b8-42e1-8272-3435a4568243",
+          "comment": "Раскрыть список \"Сгруппированные данные\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(4)",
+          "value": "",
+          "id": "4a4957b1-74de-419f-a650-7081d59a8972",
+          "comment": "Проверка: отображается группа по префиксу сгруппированных данных "
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(4) svg",
+          "value": "",
+          "id": "6f9a6ea7-0d13-489e-b183-54b88db5355e",
+          "comment": "Раскрыть список группы по префиксу"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(5)",
+          "value": "",
+          "id": "47e5da54-fbfa-4f87-945c-a0d6b97689f8",
+          "comment": "Проверки: раскрылись атрибуты группы по префиксу"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(6)",
+          "value": "",
+          "id": "6f734dd4-46d5-499b-8a3b-b1a988debd66"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(7)",
+          "value": "",
+          "id": "92b6b2ae-fec5-4940-b9b8-613e3c7029c0"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(8)",
+          "value": "",
+          "id": "0e4c3cad-55f7-427f-96b7-de9a135a5638"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(5)",
+          "value": "",
+          "id": "8165f9c0-530b-4769-991e-ea25f6e72ec8",
+          "comment": "Выделить конкретный атрибут внутри группы"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(1) > svg",
+          "value": "",
+          "id": "864234a1-48bb-4a69-8304-e1d823a4ccc1",
+          "comment": "Переместить  атрибут из группы в колонку \"Выбранные\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=(//div[contains(@class, 'TreeView-item') and @title='Дата инд3'])[2]",
+          "value": "",
+          "id": "17cc1019-65d4-4367-894f-c553a19c29c2",
+          "comment": "Проверка: Снизу списка \"Выбранные\" появлась группа с тем же названием, что и находящаяся в в списке \"Доступные\""
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "c40ee9b3-2d0f-417b-ab70-b80ebd6b2df2",
+          "comment": "Сохранить изменения"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=//span[contains(.,'Дата инд3..индик')]",
+          "value": "",
+          "id": "71ad0237-c59d-42ae-948c-bd5b2e5c445d",
+          "comment": "Проверка: БИ содержит атрибут "
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "6c56febc-6bbc-4631-9764-e0cf0eefb3ac",
+          "comment": "Возвращаемся в настройки "
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-tree:nth-child(3) .TreeView-item:nth-child(3)",
+          "value": "",
+          "id": "d5b3b531-ebf9-4ed8-add2-23c902170ce9",
+          "comment": "Выбрать перемещенный атрибут"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(2) > svg",
+          "value": "",
+          "id": "600ecc18-0bdb-40e3-9288-da636a6bc102",
+          "comment": "Вернуть перемещенный атрибут группы в колонку \"Доступных\""
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(2) > .TreeView-button:nth-child(1) > svg",
+          "value": "",
+          "id": "28306ae7-1de6-4536-a2c8-908180a1d35c",
+          "comment": "Проверки: Атрибут перемещен в список \"Сгруппированные данные\""
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(3) svg",
+          "value": "",
+          "id": "13d02e60-5bc8-4457-bcde-f259ba76779f"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=//span[contains(.,'Дата инд3..индик')]",
+          "value": "",
+          "id": "1cfd73ed-7cc2-49a4-99f7-067acd3655d5"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "b8b29a85-1e8a-4cf8-a1f6-8d727e9525c8",
+          "comment": "Сохранить изменения"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "xpath=//span[contains(.,'Дата инд3..индик')]",
+          "value": "",
+          "id": "a16b7e7a-8aa6-41a9-b273-f1d2c08d9655",
+          "comment": "Проверка: БИ не содержит атрибут "
+        },
+        {
+          "command": "click",
+          "target": "css=.account",
+          "value": "",
+          "id": "f42bc60f-caa9-48ad-a8a4-597745e1987d",
+          "comment": "Разлогин \\/"
+        },
+        {
+          "command": "click",
+          "target": "css=.\\__TEST__PROPMT_OK > span",
+          "value": "",
+          "id": "acd9b7c6-9f41-4959-a215-0c62d76b69cd"
+        },
+        {
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "value": "",
+          "id": "c3c36032-b209-4d9c-8bbc-330ba9a9dca5"
+        },
+        {
+          "command": "runScript",
+          "target": "window.location.reload(true)",
+          "value": "",
+          "id": "180378e2-a0f5-4c80-83f5-30984dcf86a1"
+        }
+      ]
+    },
+    {
+      "id": "cbada34c-5fe1-45d7-b272-ec5895eb7580",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "fa6e098b-3960-445b-9c44-9bb9ec7fc306",
+          "command": "setWindowSize",
+          "target": "1920x1080",
+          "value": "",
+          "comment": "Устанавливаем размер окна "
+        },
+        {
+          "command": "open",
+          "target": "https://172.17.127.226/",
+          "value": "",
+          "id": "766d46d3-2a8d-4517-a0c6-83ccb2e0efa8",
+          "comment": "Открываем экран залогина стенда .226"
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "xpath=//h2[text()='Вход']",
+          "value": "",
+          "id": "eaed0c90-c6ff-43d7-967c-5d9eaa3bc66e",
+          "comment": "Ожидаем подгрузку страницы залогина"
+        },
+        {
+          "command": "click",
+          "target": "xpath=//input[@placeholder='Имя пользователя']",
+          "value": "",
+          "id": "bf742214-9013-46e4-99ee-f94b46a59d8e",
+          "comment": "Клик в поле логина"
+        },
+        {
+          "command": "type",
+          "target": "xpath=//input[@placeholder='Имя пользователя']",
+          "value": "smirnov1",
+          "id": "38567488-5b68-4fc8-951d-7333f5cf2920",
+          "comment": "Ввод логина"
+        },
+        {
+          "command": "click",
+          "target": "xpath=//input[@placeholder='Пароль']",
+          "value": "",
+          "id": "3eb0705f-6ee4-4692-814f-a257a6d8a961",
+          "comment": "Клик в поле пароля"
+        },
+        {
+          "command": "type",
+          "target": "xpath=//input[@placeholder='Пароль']",
+          "value": "Password123$$$123",
+          "id": "3c8d7ade-44d7-461f-a546-35cdb32f4fc2",
+          "comment": "Ввод пароля"
+        },
+        {
+          "command": "click",
+          "target": "xpath=//button[@class='Control Button Button-authorization Login__button __TEST__ENTRY_BUTTON _Clickable WithIcon Primary']",
+          "value": "",
+          "id": "e35a1daa-bec2-421a-9d1a-53e075ef1d2f",
+          "comment": "Клик по кнопке авторизации"
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.logo",
+          "value": "",
+          "id": "9d4ecc29-cc46-4cc6-b58a-6c20a482a0e7",
+          "comment": "Ожидание подгрузки "
+        }
+      ]
+    },
+    {
+      "id": "2f38288b-3afd-4b3a-a7d7-13de6df39e5e",
+      "name": "Не реализовано зажатие alt\\ctrl. Настройка столбцов таблицы 27-30, 62-63",
+      "commands": [
+        {
+          "id": "c35797d8-c0a3-4f8d-a7d7-a232f6d216de",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "90045a9e-e7ed-491b-b0e6-fec39b8468d2",
+      "name": "4/5 Настройка столбцов таблицы 42-55",
+      "commands": [
+        {
+          "id": "59edbcad-ddf4-4103-807f-0807783a236b",
+          "command": "run",
+          "target": "Login",
+          "value": ""
+        },
+        {
+          "command": "run",
+          "target": "BI_source_2",
+          "value": "",
+          "id": "fd76c77b-9049-42a2-9e21-55f9f187eea7",
+          "comment": "Переход в БИ второго источника"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "4dc7f8c5-d416-4733-8c72-3aa9b5d9bce0",
+          "comment": "Выполнение предусловия: сохранение настроек таблицы - 1. Настройки"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(3)",
+          "value": "",
+          "id": "0dd1cdad-00f0-4615-b654-e9468fb5ab2c",
+          "comment": "2.Клик по атрибуту"
+        },
+        {
+          "command": "storeText",
+          "target": "xpath=//div[@data-idx=\"2\"]",
+          "value": "percentage",
+          "id": "8ee947c6-182f-4f34-ba53-32bee6d1a025",
+          "comment": "3. Сохранняем название атрибута в переменную"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-addRemoveArrows > .ColumnsSettings-arrow:nth-child(2) > svg",
+          "value": "",
+          "id": "08d99d3a-1e0a-4806-b18e-954891676152",
+          "comment": "4. Перетаскиваем влево"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "985d8ccf-9cd0-4813-aa93-81092f7f3c9e",
+          "comment": "5. Сохраняем"
+        },
+        {
+          "command": "runScript",
+          "target": "var elements = document.querySelectorAll('.Grid-Item-Content'); var positions = []; elements.forEach(function(element, index) { var rect = element.getBoundingClientRect(); positions.push({ text: element.textContent.trim(), index: index, top: rect.top, left: rect.left }); }); window.savedPositions = positions; console.log('Позиции элементов сохранены: ', positions)",
+          "value": "",
+          "id": "0ebebd52-69b8-4d87-a9e6-ae8f67ce4d36",
+          "comment": "Запоминаем отображение по умолчанию"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "670a948c-7b09-459e-81e7-044551cd21be",
+          "comment": "Переход в настройки таблицы"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--reset",
+          "value": "",
+          "id": "b326db81-239c-4fc1-b127-f518fee5ee1f",
+          "comment": "Кликнуть по кнопке \"Сбросить настройки\""
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-child(2) > .ColumnsSettings-button--default",
+          "value": "",
+          "id": "70105432-264e-456e-a208-5e1d9b92436e",
+          "comment": "Кликнуть \"Да\" в модалке на возврат отображения по умолчанию"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "css=.ColumnsSettings-tree:nth-child(1) .TreeView-item",
+          "value": "",
+          "id": "1e60d2ec-a36d-43a5-8e97-938296263b6b",
+          "comment": "Проверка: Все атрибуты перемещаются в колонку \"Выбранные\""
+        },
+        {
+          "command": "assertText",
+          "target": "xpath=//div[@data-idx=\"2\"]",
+          "value": "Percentage 1",
+          "id": "97e47568-b488-4967-943e-4d9b30d13c47",
+          "comment": "Проверка: Сортировка - по умолчанию. (Элемент вернулся на прежнее место)"
+        },
+        {
+          "command": "assertChecked",
+          "target": "xpath=//input[@id=\"cb_2\"]",
+          "value": "",
+          "id": "9da282ac-e8a2-4b1e-9525-b91f5f593048",
+          "comment": "Проверка: Активирован чекбокс \"Сгруппировать по префиксу\""
+        },
+        {
+          "command": "assertNotChecked",
+          "target": "xpath=//input[@id=\"cb_1\"]",
+          "value": "",
+          "id": "35853ea9-a510-426d-8c04-47ca9a0275be",
+          "comment": "Проверка: Чекбкос \"Сгруппировать по типу данных\"  дезактивирован"
+        },
+        {
+          "command": "//verifyElementPresent",
+          "target": "xpath=//button[@class=\"ColumnsSettings-button ColumnsSettings-button--default ColumnsSettings-button--disabled\"] ",
+          "value": "",
+          "id": "81c882ac-b5e6-4845-954d-aced9f75910b",
+          "comment": "Known bug: Проверка: Кнопка \"Сохранить\" дезактивирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(2) > span",
+          "value": "",
+          "id": "c5452e62-32b7-4a3e-85ec-7caf0d816f5c",
+          "comment": "Снять чекбокс \"Сгруппировать по префиксу\""
+        },
+        {
+          "command": "//runScript",
+          "target": "var elements = document.evaluate(\"//div[contains(@class, 'TreeView-container')]//div[contains(@class, 'TreeView-item')]\", document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null); var texts = []; for (var i = 0; i < elements.snapshotLength; i++) { texts.push(elements.snapshotItem(i).textContent.trim()); } var sortedTexts = [...texts].sort(function(a, b) { return a.localeCompare(b); }); if (JSON.stringify(texts) === JSON.stringify(sortedTexts)) { console.log('Элементы отсортированы по алфавиту'); return true; } else { alert('Элементы не отсортированы по алфавиту'); console.error('Элементы не отсортированы по алфавиту'); throw new Error('Элементы не отсортированы по алфавиту'); }",
+          "value": "",
+          "id": "108d63b3-2c3d-4236-bd4e-fc5eed58175a",
+          "comment": "Known bug: Проверка: - Сгруппированные атрибуты рассортировались в колонке по алфавиту"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "1f161ce2-8aeb-4119-b4fc-8b35a263b247",
+          "comment": "Проверка: Кнопка \"Сохранить\" - активирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(2) > span",
+          "value": "",
+          "id": "c35d43c6-ff93-42f2-b04d-df1a9b1eb858",
+          "comment": "Установить чекбокс \"Сгруппировать по префиксу\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.TreeView-item:nth-child(1) > span:nth-child(4)",
+          "value": "",
+          "id": "57946a32-fd10-4929-9a1a-f57b538dce50",
+          "comment": "Проверка: Сгруппированные атрибуты снова сформированы в группу"
+        },
+        {
+          "command": "//verifyElementPresent",
+          "target": "xpath=//button[@class=\"ColumnsSettings-button ColumnsSettings-button--default ColumnsSettings-button--disabled\"] ",
+          "value": "",
+          "id": "548cd3e5-b954-4086-9529-85ec896becb8",
+          "comment": "Known bug: Проверка: Кнопка \"Сохранить\" - дезактивирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(2) > span",
+          "value": "",
+          "id": "1365a7b9-e5be-456c-aefd-173b25279fbb",
+          "comment": "Снять чекбокс \"Сгруппировать по префиксу\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "25b9edf2-e00e-485b-96dd-011270e4cfea",
+          "comment": "Проверка: Кнопка \"Сохранить\" - активирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button:nth-child(2)",
+          "value": "",
+          "id": "347423fe-8209-4169-bce6-224ca9666c13",
+          "comment": "Нажать \"Отмена\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-dialog",
+          "value": "",
+          "id": "7aa58fdf-0a0e-469d-8f7c-eedc406f7090",
+          "comment": "Проверка: Всплывает модальное окно с тектом: \"Внесенные изменения не будут сохранены. Вы уверены, что хотите завершить настройку колонок?\""
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-child(2) > .ColumnsSettings-button--outline",
+          "value": "",
+          "id": "c9e164aa-f5bb-4770-83e8-a662c6564152",
+          "comment": "Нажать \"Нет\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "f9be8234-d0e3-4aeb-948f-8f011cb1da3f",
+          "comment": "Проверка: Кнопка \"Сохранить\" - активирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button:nth-child(2)",
+          "value": "",
+          "id": "dd06f546-c0b9-417a-883d-fd8a8691643a",
+          "comment": "Нажать \"Отмена\""
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-child(2) > .ColumnsSettings-button--default",
+          "value": "",
+          "id": "f33b29e4-192b-4adf-86d2-07fa3cb669b9",
+          "comment": "Нажать \"Да\""
+        },
+        {
+          "command": "runScript",
+          "target": "var elements = document.querySelectorAll('.Grid-Item-Content'); window.savedPositions.forEach(function(savedPosition) { var element = elements[savedPosition.index]; var rect = element.getBoundingClientRect(); if (element.textContent.trim() === savedPosition.text && rect.top === savedPosition.top && rect.left === savedPosition.left) { console.log('Элемент на позиции с текстом \"' + savedPosition.text + '\" не изменил позицию.'); } else { console.error('Позиция элемента с текстом \"' + savedPosition.text + '\" изменилась.'); throw new Error('Позиция элемента изменилась'); } })",
+          "value": "",
+          "id": "4e43b86b-b987-4107-b5fc-70927a4cb501",
+          "comment": "Проверка: Открывается таблица БИ по умолчанию "
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "f075f1cf-4fac-4491-aff4-bef51a56d2fe",
+          "comment": "Перейти в настройки таблицы"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(3) > span",
+          "value": "",
+          "id": "49340e60-23b0-4fee-a9b4-f283cebecd14",
+          "comment": "Установить чекбокс \"Сгруппировать по типу данных\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=//button[@class=\"ColumnsSettings-button ColumnsSettings-button--default ColumnsSettings-button--disabled\"] ",
+          "value": "",
+          "id": "eadf07b7-c1f4-4c3e-ba2f-27d9c9e2ed31",
+          "comment": "Проверка: Кнопка \"Сохранить\" - дезактивирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-tree:nth-child(3) > .ColumnsSettings-tree--top > button",
+          "value": "",
+          "id": "46f6124b-252b-44a1-9cde-bf080f0eeb8a",
+          "comment": "Кликнуть по кнопке \"Убрать все\""
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "css=.ColumnsSettings-tree:nth-child(3) .TreeView-item",
+          "value": "",
+          "id": "7f064c2f-fce5-4306-bd59-80283f3aa036",
+          "comment": "Проверка: Все атрибуты перемещены в колонку \"Доступные\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=//div[contains(@class, 'TreeView-item') and @title='Сгрупированные данные' and .//span[text()='(2)']]",
+          "value": "",
+          "id": "de71fda9-58e8-4099-a889-e1d4dcd3c373",
+          "comment": "Проверка: Сгруппированные атрибуты находятся внутри групп"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "dd2868dd-0bee-4f41-bef4-7ae9e1791c30",
+          "comment": "Проверка: Кнопка \"Сохранить\" - активирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "c72c17ca-d4cc-4bd1-81bc-f62af7799c3c",
+          "comment": "Сохранить изменения"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "xpath=//p[contains(.,'Ни один из атрибутов графика не выбран для просмотра. Пожалуйста, зайдите в настройки колонок графика и выберите атрибуты для просмотра.')]",
+          "value": "",
+          "id": "bea34c71-7878-441d-858a-76ba352d2eac",
+          "comment": "Проверки: Открывается пустая таблица БИ"
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "//div[@class='Grid-Item-Content ']",
+          "value": "",
+          "id": "9841bb09-e7ed-4fe0-87c8-92424dc2b367"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "bb12b994-00ec-4b86-986c-caf0305910da",
+          "comment": "Снова открыть настройки"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-tree:nth-child(1) > .ColumnsSettings-tree--top > button",
+          "value": "",
+          "id": "6826ff33-d2a4-48f4-9094-9109d953bdbd",
+          "comment": "Кликнуть по кнопке \"Добавить все\""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "//span[text()=\"Выбранные столбцы\"]//parent::div//parent::div//span[@class='TreeView-name' and text()='Текстовые данные']",
+          "value": "",
+          "id": "1489e0be-ab7a-4bfc-b3b8-f6145a71b992",
+          "comment": "Проверка: Сохраняется группировка. Атрибуты внутри групп перемещены в \"Выбранные\""
+        },
+        {
+          "command": "assertElementNotPresent",
+          "target": "//span[text()=\"Доступные столбцы\"]//parent::div//parent::div//span[@class='TreeView-name' and text()='Текстовые данные']",
+          "value": "",
+          "id": "cf09b7d2-ad59-42e5-8db4-1e5c2e2aece2"
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "ff6a3a99-f135-4d49-9daa-94d16a773d2e",
+          "comment": "Проверка: Кнопка \"Сохранить\" - активирована"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "a0a3532c-1c0e-4e8e-a6ab-b04a77466646",
+          "comment": "Сохранить изменения"
+        },
+        {
+          "command": "click",
+          "target": "css=.account",
+          "value": "",
+          "id": "2a19db9e-2dac-47b9-8520-8faa24fdf38c",
+          "comment": "Разлогин \\/"
+        },
+        {
+          "command": "click",
+          "target": "css=.\\__TEST__PROPMT_OK > span",
+          "value": "",
+          "id": "09fbbeb4-4367-4e5d-ac04-25e26f7828d0"
+        },
+        {
+          "command": "click",
+          "target": "css=.mt-16 > span",
+          "value": "",
+          "id": "6a53b3b4-d384-4c9b-8a75-c43fe393a6a2"
+        },
+        {
+          "command": "runScript",
+          "target": "window.location.reload(true)",
+          "value": "",
+          "id": "d9922669-ee33-4fd6-8269-f67a5808a7f2"
+        }
+      ]
+    },
+    {
+      "id": "8e477df9-15f3-4c4e-802c-9e223592f557",
+      "name": "Не реализован drag and drop. Настройка столбцов таблицы 57-58",
+      "commands": [
+        {
+          "id": "2d489a7f-10b1-42b9-9295-074c94640ddf",
+          "command": "run",
+          "target": "Login",
+          "value": "",
+          "isBreakpoint": false
+        },
+        {
+          "command": "run",
+          "target": "BI_source_1",
+          "value": "",
+          "id": "823e7872-6124-400b-a28b-8ceb2987c156",
+          "comment": "Переход в БИ Первого источника ",
+          "isBreakpoint": false
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "id": "c57f3417-6315-4125-9ca5-9c8ce15858e7",
+          "comment": "Переход в настройки таблицы",
+          "isBreakpoint": false
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(3)",
+          "value": "",
+          "id": "0fd45d21-c24c-4245-87ab-ae588038e5f8"
+        },
+        {
+          "command": "dragAndDropToObject",
+          "target": "css=.TreeView-item--active",
+          "value": "css=.TreeView-item:nth-child(2) svg",
+          "id": "9096cde8-ca0f-45df-9618-d02d14258c5e",
+          "isBreakpoint": false
+        }
+      ]
+    },
+    {
+      "id": "b147998a-3e31-4c04-a80b-095dc5b8b22e",
+      "name": "Не реализован поиск по совпадениям результатов поиска Настройка столбцов таблицы 65-72",
+      "commands": [
+        {
+          "command": "run",
+          "target": "Login",
+          "value": "",
+          "isBreakpoint": false,
+          "id": "5c273b34-72cb-44bd-841a-27c14bade115"
+        },
+        {
+          "command": "run",
+          "target": "BI_source_2",
+          "value": "",
+          "id": "b8aecc21-6650-49d1-af8c-b3f4c9091005"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "comment": "Переход в настройки таблицы",
+          "isBreakpoint": false,
+          "id": "3085d5da-79cd-46db-a2a5-d2e455b938f5"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-tree:nth-child(3) input",
+          "value": "",
+          "id": "3cff87e6-834a-4e43-8d6e-b168b5cee85c",
+          "comment": "Кликнуть полю поиска в колонке выбранные"
+        },
+        {
+          "command": "type",
+          "target": "css=.ColumnsSettings-tree:nth-child(3) input",
+          "value": "дата",
+          "id": "b6de4998-e677-41a0-b964-00c67fb999d9",
+          "comment": "Ввести любую часть имени какого-либо существующего атрибута"
+        },
+        {
+          "command": "//runScript",
+          "target": "var element = document.evaluate(\\\"//div[contains(concat(' ', normalize-space(@class), ' '), ' TreeView-item ')]\\\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;\\nif (!element) { throw new Error('Element not found'); }\\nvar titleData = element.getAttribute('title');\\nif (titleData === null) { throw new Error('Title data is undefined or null.'); }\\nreturn titleData.toLowerCase();",
+          "value": "",
+          "id": "5b16a072-6a72-4226-a583-99457ac086a4"
+        },
+        {
+          "command": "//assert",
+          "target": "${title_data}.includes('дата')",
+          "value": "true",
+          "id": "22d5ef4c-bcea-4fbb-8469-44efc7666698"
+        },
+        {
+          "command": "echo",
+          "target": "Title contains 'дата': ${title_data}",
+          "value": "",
+          "id": "185f8ac8-a346-443b-98f3-0db364b0f539"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "bd483f5a-a27d-4365-9149-79c723a0474c",
+          "comment": "Нажать на крестик"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "a0c2f983-b975-4ac4-b741-1c0f53b1760b",
+          "comment": "Проверка: Запрос в поле поиска удален"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "881b71ce-3f26-491d-bc39-8f8f0a347c02",
+          "comment": "Проверка: Выводится полный список атрибутов"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "4b621125-4a26-4668-aac3-5908ba7d2ace",
+          "comment": "Активировать чекбоксы \"Сгруппировать по префиксу\" и \"Сгруппировать по типу данных\""
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "2360040f-9187-4776-8a88-8770cf410298",
+          "comment": "Ввести любую часть имени атрибута, который является частью группы"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "b24eb054-3d33-4c0b-b67a-356dc857403c",
+          "comment": "Проверка: Выводится список групп, в которых есть атрибуты, удовлетворяющие запросу"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "4994e86b-73b6-49a7-bb3d-a3e2f5502d40",
+          "comment": "Дезактивировать чекбоксы \"Сгруппировать по префиксу\" и \"Сгруппировать по типу данных\""
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "393e881f-89f4-4e84-bc1c-0e48de270df1",
+          "comment": "Проверка: Выводится список атрибутов, удовлетворяющий запросу"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "201b4d15-7c9f-46eb-8c32-3f67a792b048",
+          "comment": "Удалить запрос в строке поиска с помощью клавиатуры"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "f736992a-acea-478b-9dfa-200427e0b5f4",
+          "comment": "Проверка: Запрос в поле поиска удален"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "af122241-6f41-4e51-bfaa-8ce9214b2617",
+          "comment": "Проверка: Выводится полный список атрибутов"
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "66086bc5-1fd7-4c9b-a36a-427e9f241c8f"
+        }
+      ]
+    },
+    {
+      "id": "1f38852c-4ac3-437a-ba29-ee9689ed8f74",
+      "name": "BI_source_1",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://172.17.127.226/p/85074474-3ba6-4c4e-a5aa-a1985a8b0711/gantt/1f4f4872-2373-44be-ad34-460c269a5212/v/80892c32-7500-4f1e-8dae-26024ded5cab",
+          "value": "",
+          "id": "97dd3c0b-2e5a-4b71-b347-2d74ce7afaad",
+          "comment": "Переход по ссылке на источник Первый"
+        },
+        {
+          "command": "runScript",
+          "target": "var element = document.evaluate(\"//h3[text()='Первый']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; if (element) { element.textContent.trim() === 'Первый' ? console.log('Текст элемента соответствует: Первый') : (console.error('Текст элемента не соответствует ожидаемому значению'), (function() { throw new Error('Текст элемента не соответствует'); })()); } else { console.error('Элемент не найден или страница не загрузилась'); throw new Error('Элемент не найден или страница не загрузилась'); }",
+          "value": "",
+          "id": "c4d0d52d-19b9-4037-b295-018f6dcfb428",
+          "comment": "Проверка на подгрузку БИ"
+        }
+      ]
+    },
+    {
+      "id": "35a1364f-3ded-439a-bc00-2baa5079f11e",
+      "name": "BI_source_2",
+      "commands": [
+        {
+          "id": "203062d2-9dc7-432a-b5d8-425502c91cbd",
+          "command": "open",
+          "target": "https://172.17.127.226/p/85074474-3ba6-4c4e-a5aa-a1985a8b0711/gantt/895fcb9c-d353-4a8a-baad-c24203204393/v/80892c32-7500-4f1e-8dae-26024ded5cab",
+          "value": "",
+          "comment": "Переход по ссылке на источник Второй"
+        },
+        {
+          "command": "runScript",
+          "target": "var element = document.evaluate(\"//h3[text()='Второй']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; if (element) { element.textContent.trim() === 'Второй' ? console.log('Текст элемента соответствует: Второй') : (console.error('Текст элемента не соответствует ожидаемому значению'), (function() { throw new Error('Текст элемента не соответствует'); })()); } else { console.error('Элемент не найден или страница не загрузилась'); throw new Error('Элемент не найден или страница не загрузилась'); }",
+          "value": "",
+          "id": "711bf911-ed51-42c4-94f8-5853e67ab4f3",
+          "comment": "Проверка на подгрузку БИ"
+        }
+      ]
+    },
+    {
+      "id": "2928df02-3c2b-448b-8ad8-97bfc6d9414c",
+      "name": "5/5 Настройка столбцов таблицы 58-61",
+      "commands": [
+        {
+          "command": "run",
+          "target": "Login",
+          "value": "",
+          "isBreakpoint": false,
+          "id": "7047cd24-b3ba-4bf9-8487-9463279f8a98"
+        },
+        {
+          "command": "run",
+          "target": "BI_source_1",
+          "value": "",
+          "comment": "Переход в БИ Первого источника ",
+          "isBreakpoint": false,
+          "id": "769551c9-59eb-4a4b-8e2b-5f2e432bc646"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "comment": "Переход в настройки таблицы",
+          "isBreakpoint": false,
+          "id": "576757c2-60d2-4081-b386-a17682395fff"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(3) > span",
+          "value": "",
+          "id": "6c8976ca-949a-4d9d-9580-50c9862ea13c",
+          "comment": "Вкл. чекбокс Сгруппировать по типу данных"
+        },
+        {
+          "command": "click",
+          "target": "css=.TreeView-item:nth-child(4) > span:nth-child(4)",
+          "value": "",
+          "id": "418d76cf-d525-429e-b4c5-a0994589f2e0",
+          "comment": "Выбрать в фокус группу"
+        },
+        {
+          "command": "storeText",
+          "target": "css=.TreeView-item:nth-child(4) > span:nth-child(4)",
+          "value": "group_in_focus",
+          "id": "dcdd6fea-6bdc-45b5-bf9f-585ce702fa3c",
+          "comment": "Сохранить название выделенного элемента в переменную"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-upDownArrows > .ColumnsSettings-arrow:nth-child(1) > svg",
+          "value": "",
+          "id": "7909dbb5-aa2b-410b-9914-d694a01e38e8",
+          "comment": "1\\3 Переместить группу на N позиций выше стрелкой"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-upDownArrows > .ColumnsSettings-arrow:nth-child(1) > svg",
+          "value": "",
+          "comment": "2\\3 Переместить группу на N позиций выше стрелкой",
+          "id": "6fd15e69-272e-4a2b-b2c7-6004c5d20934"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-upDownArrows > .ColumnsSettings-arrow:nth-child(1) > svg",
+          "value": "",
+          "comment": "3\\3 Переместить группу на N позиций выше стрелкой",
+          "id": "e374fb46-9353-4be3-855e-1e496b83f1b9"
+        },
+        {
+          "command": "//assertText",
+          "target": "css=.TreeView-item:nth-child(1)",
+          "value": "${group_in_focus}",
+          "id": "d09b810e-eb35-4b7c-8f6c-0f6275ad5c45",
+          "comment": "Known bug: Проверка: Выделенная группа на 3 позиции выше (первая)"
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-checkbox:nth-child(3) > span",
+          "value": "",
+          "id": "c38d8658-4e3a-43a6-b6f5-f63b9af83a46",
+          "comment": "Снять чекбокс \"Сгруппировать по типу данных\""
+        },
+        {
+          "command": "click",
+          "target": "css=.ColumnsSettings-button--default",
+          "value": "",
+          "id": "10873093-91e9-4b43-a4c8-3780048868bc",
+          "comment": "Сохранить изменения"
+        },
+        {
+          "command": "click",
+          "target": "css=#settings-button svg",
+          "value": "",
+          "comment": "Переход в настройки таблицы",
+          "isBreakpoint": false,
+          "id": "2d7d16ba-f518-4698-a3af-e8d95774a1fc"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "b3bea83d-adba-47e0-a0cc-c8a85e5b7183",
+      "name": "(Роли)",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 20,
+      "tests": [
+        "aa8d9bd7-7a8d-49b3-a3b8-62c5648f3a97",
+        "45c55d4d-0f8a-4423-a049-36dc68a4145b",
+        "f77954ba-ad1a-4ef1-b659-b18b6759ded7"
+      ]
+    },
+    {
+      "id": "b952e80c-f5b1-4572-8965-1c55bad119c9",
+      "name": "78362 Настройка таблицы БИ",
+      "persistSession": false,
+      "parallel": false,
+      "tests": [
+        "2928df02-3c2b-448b-8ad8-97bfc6d9414c",
+        "35a1364f-3ded-439a-bc00-2baa5079f11e",
+        "1f38852c-4ac3-437a-ba29-ee9689ed8f74",
+        "cbada34c-5fe1-45d7-b272-ec5895eb7580",
+        "77611bf4-9132-4f01-bb24-d3e4278811df",
+        "6a9145bf-f0fd-4d19-a611-fc843ad20f35",
+        "c5da5a7d-fc54-45cf-b18f-3dad24b2d56a",
+        "90045a9e-e7ed-491b-b0e6-fec39b8468d2"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "urls": [
+    "https://172.17.127.226/"
+  ],
+  "plugins": [],
+  "timeout": 3000,
+  "delay": 1000
+}
